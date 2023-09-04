@@ -1,0 +1,16 @@
+.custom-cursor {
+    position: fixed;
+    width: 2rem;
+    height: 2rem;
+    background-color: #ffcd4650;
+    border: 1px solid #ffcd46;
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: background-color 0.3s ease;
+    z-index: 99999;
+}
+.custom-cursor.cursorgrow{
+    width: 3rem;
+    height: 3rem; 
+}
